@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacaciones</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id="container">
+        <div id="GPS">
+            <h2>¡Nos vamos de vacaciones!</h2>
+            <div id="userinput">
+                <div class="block">
+                     <label for="botonbarcelona">100km</label>
+                    <button id="botonbarcelona" onclick="barcelona()">Mostrar trayecto</button>
+                </div>
+                <div class="block">
+                    <label for="botoncastelldefels">50km</label>
+                   <button id="botoncastelldefels" onclick="castelldefels()">Mostrar trayecto</button>
+               </div>
+                <div class="block">
+                    <label for="botonvilanova">15km</label>
+                    <button id="botonvilanova" onclick="vilanova()">Mostrar trayecto</button>
+                </div>
+                <div class="block">
+                    <label for="botontarragona">0km</label>
+                    <button id="botontarragona" onclick="tarragona()">Mostrar trayecto</button>
+               </div>
+               </div>
+        </div>
+        <div id="fondo">
+            <h3 onclick="cerrar()"></h3>
+            <h2 id="placeName"></h2>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

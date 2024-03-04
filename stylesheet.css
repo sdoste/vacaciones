@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#userinput {
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fondo{
+    background-image: url(/images/parking.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#placeName{
+    position: relative;
+    top: 240px;
+}
+#fondo h3{
+    position: relative;
+    bottom: 42px;
+    left: 318px;
+
+}
